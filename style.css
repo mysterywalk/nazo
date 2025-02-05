@@ -1,0 +1,308 @@
+header {
+  display: flex; /* 要素を横並びにする */
+  flex-direction: column; /* 子要素を縦方向に配置 */
+  align-items: center; /* 中央寄せ */
+  justify-content: center; /* 縦方向中央寄せ */
+  padding: 20px; /* ヘッダーの余白 */
+  background-color: #ffffff; /* ヘッダーの背景色 */
+}
+
+header img {
+  width: 150px; /* 画像の幅 */
+  height: auto; /* アスペクト比を維持 */
+  margin-bottom: 10px; /* 画像とタイトルの間に余白 */
+}
+
+header h1 {
+  font-size: 24px; /* タイトルの文字サイズ */
+  margin: 0; /* マージンをリセット */
+  color: #333; /* 文字色 */
+}
+
+header p {
+  font-size: 14px; /* 注意文の文字サイズ */
+  margin: 5px 0 0; /* 上に少し余白 */
+  color: #666; /* 文字色 */
+}   
+
+/*====================================================================
+    .s_07 .accordion_one
+    ====================================================================*/
+    .s_07 .accordion_one {
+     max-width: 100%; /* スマホは画面いっぱいに広げる */
+     margin: 0 auto;
+    }
+    .s_07 .accordion_one .accordion_header {
+      background-color: #000000;
+      border-bottom: 1px solid #fff;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 20px 11%;
+      text-align: center;
+      position: relative;
+      z-index: +1;
+      cursor: pointer;
+      transition-duration: 0.2s;
+    }
+
+    .s_07 .accordion_one:nth-of-type(1) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+      color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(1) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+    　color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(2) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(2) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(2) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(3) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(3) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(3) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(4) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(4) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(4) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(5) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(5) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(5) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(6) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(6) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(6) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(7) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(7) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(7) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(8) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(8) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(8) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(9) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(9) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(9) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(10) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(10) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(10) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(11) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(11) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(11) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(12) .accordion_header {
+      background-color: #000000;
+    }
+    .s_07 .accordion_one:nth-of-type(12) .accordion_inner .accordion_header {
+      background-color: #f5f5f5;
+        color: #000000; 
+    }
+    .s_07 .accordion_one:nth-of-type(12) .accordion_inner .accordion_inner  .accordion_header {
+      background-color: #ffffff;
+        color: #000000; 
+    }
+
+
+
+/* ANSWERのタイトルを黄色にする（優先度を上げる） */
+.s_07 .accordion_one.answer_section > .accordion_header {
+  background-color: #FFFACD !important; 
+  color: #000 !important; /* 文字色を黒に */
+}
+    .s_07 .accordion_one .accordion_header:hover {
+      opacity: .8;
+    }
+    .s_07 .accordion_one .accordion_header .i_box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 50%;
+      right: 5%;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #fff;
+      margin-top: -20px;
+      box-sizing: border-box;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      transform-origin: center center;
+      transition-duration: 0.2s;
+    }
+    .s_07 .accordion_one .accordion_header .i_box .one_i {
+      display: block;
+      width: 18px;
+      height: 18px;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      transform-origin: center center;
+      transition-duration: 0.2s;
+      position: relative;
+    }
+    .s_07 .accordion_one .accordion_header.open .i_box {
+      -webkit-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+    .s_07 .accordion_one .accordion_header .i_box .one_i:before, .s_07 .accordion_one .accordion_header .i_box .one_i:after {
+      display: flex;
+      content: '';
+      background-color: #fff;
+      border-radius: 10px;
+      width: 18px;
+      height: 4px;
+      position: absolute;
+      top: 7px;
+      left: 0;
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      transform-origin: center center;
+    }
+    .s_07 .accordion_one .accordion_header .i_box .one_i:before {
+      width: 4px;
+      height: 18px;
+      top: 0;
+      left: 7px;
+    }
+    .s_07 .accordion_one .accordion_header.open .i_box .one_i:before {
+      content: none;
+    }
+    .s_07 .accordion_one .accordion_header.open .i_box .one_i:after {
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+    .s_07 .accordion_one .accordion_inner {
+      display: none;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .s_07 .accordion_one .accordion_inner .box_one {
+      height: 300px;
+    }
+    .s_07 .accordion_one .accordion_inner p.txt_a_ac {
+      margin: 0;
+    }
+
+.s_07 .accordion_one .accordion_inner > .accordion_one > .accordion_header .i_box {
+  border: 1px solid #000; /* ボタン枠を黒に */
+}
+
+.s_07 .accordion_one .accordion_inner > .accordion_one > .accordion_header .i_box .one_i:before,
+.s_07 .accordion_one .accordion_inner > .accordion_one > .accordion_header .i_box .one_i:after {
+  background-color: #000; /* 線の色を黒に */
+}
+
+.s_07 .accordion_inner {
+  display: none; /* 初期状態では非表示 */
+}
+
+.s_07 .accordion_header.open + .accordion_inner {
+  display: block; /* 開いた時に表示 */
+}
+
+
+/* --- フッター --- */
+
+footer {
+  text-align: center; /* 中央寄せ */
+  padding: 20px; /* 上下に余白を追加 */
+  background-color: #ffffff; 
+  color: #666; /* 文字色を設定 */
+}
+
+footer p {
+  margin: 0; /* マージンをリセット */
+  font-size: 14px; /* 文字サイズを14pxに設定 */
+  line-height: 1.5; /* 行間を少し広げる */
+}
+
+
+/* --- デスクトップ用スタイル --- */
+@media screen and (min-width: 1024px) {
+  .s_07 .accordion_one {
+    max-width: 1024px; /* デスクトップでも中央寄せ */
+  }
+  .s_07 .accordion_one .accordion_header {
+    font-size: 26px; /* 大きい文字サイズ */
+    text-align: center; /* デスクトップでは中央揃え */
+    padding: 20px 11%; /* デフォルトの余白に戻す */
+  }
+  .s_07 .accordion_one .accordion_header .i_box {
+    width: 40px;
+    height: 40px;
+    right: 5%; /* 大画面では右端に配置 */
+  }
+}
