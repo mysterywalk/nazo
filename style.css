@@ -25,9 +25,9 @@ header img {
 
 
 header h1 {
-  font-size: 32px; /* タイトルの文字サイズ */
-  margin: 0; /* マージンをリセット */
-  color: #000; /* 文字色 */
+  font-size: 2rem;   /* 32px相当 */
+  margin: 2rem 0;  
+  color: #000;
 }
 
 header p {
