@@ -25,15 +25,15 @@ header img {
 
 
 header h1 {
-  font-size: 24px; /* タイトルの文字サイズ */
+  font-size: 32px; /* タイトルの文字サイズ */
   margin: 0; /* マージンをリセット */
-  color: #333; /* 文字色 */
+  color: #000; /* 文字色 */
 }
 
 header p {
-  font-size: 14px; /* 注意文の文字サイズ */
-  margin: 5px 0 0; /* 上に少し余白 */
-  color: #666; /* 文字色 */
+  font-size: 18px; /* 注意文の文字サイズ */
+  margin: 15px 0 0; /* 上に少し余白 */
+  color: #000; /* 文字色 */
 }   
 
 html, body {
@@ -295,7 +295,7 @@ footer {
   text-align: center; /* 中央寄せ */
   padding: 20px; /* 上下に余白を追加 */
   background-color: #df6149; 
-  color: #666; /* 文字色を設定 */
+  color: #000; /* 文字色を設定 */
 }
 
 footer p {
