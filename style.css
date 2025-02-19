@@ -297,6 +297,16 @@ footer {
   color: #000; /* 文字色を設定 */
 }
 
+.footer-info span {
+  display: block; /* スマホでは縦に表示 */
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-info span {
+    display: inline; /* PCでは横並びに表示 */
+  }
+}
+
 footer p {
   margin: 0; /* マージンをリセット */
   font-size: 1rem; /* 文字サイズを14pxに設定 */
