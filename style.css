@@ -7,10 +7,13 @@ header {
   background-color: #ffffff; /* ヘッダーの背景色 */
 }
 
+/* スマホファーストのメインビジュアル用スタイル */
 header img {
-  width: 150px; /* 画像の幅 */
-  height: auto; /* アスペクト比を維持 */
-  margin-bottom: 10px; /* 画像とタイトルの間に余白 */
+  display: block;         /* 画像をブロック要素にして */
+  margin: 0 auto;         /* 左右中央に配置 */
+  width: 90%;             /* 画面幅の90%を使用 */
+  max-width: 600px;       /* 最大幅を600pxに制限して大画面でも美しく */
+  height: auto;           /* アスペクト比を維持 */
 }
 
 header h1 {
