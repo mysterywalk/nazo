@@ -4,7 +4,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #df6149;
   max-width: 1024px; /* PC用に幅を制限 */
   margin: 0 auto;    /* 中央寄せ */
 }
@@ -35,6 +35,10 @@ header p {
   margin: 5px 0 0; /* 上に少し余白 */
   color: #666; /* 文字色 */
 }   
+
+html, body {
+  background-color: #df6149;
+}
 
 /*====================================================================
     .s_07 .accordion_one
