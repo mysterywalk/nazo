@@ -31,8 +31,7 @@ header h1 {
 }
 
 header p {
-  font-size: 18px; /* 注意文の文字サイズ */
-  margin: 15px 0 0; /* 上に少し余白 */
+  font-size: 1.5rem; /* 注意文の文字サイズ */
   color: #000; /* 文字色 */
 }   
 
@@ -300,7 +299,7 @@ footer {
 
 footer p {
   margin: 0; /* マージンをリセット */
-  font-size: 14px; /* 文字サイズを14pxに設定 */
+  font-size: 1.5rem; /* 文字サイズを14pxに設定 */
   line-height: 1.5; /* 行間を少し広げる */
 }
 
